@@ -4,6 +4,7 @@ import User from '../Model/userModel.js';
 import Artikel from '../Model/artikelModel.js';
 
 
+
 //@desc create register usuer
 const registerUser = asyncHandler( async (req, res) => {
     const { nama, email, password } = req.body;
@@ -105,4 +106,5 @@ export {
     dashboard,
     getUserById,
     getAllUser
+    dashboard
 }
